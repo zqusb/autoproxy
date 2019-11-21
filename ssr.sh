@@ -1417,7 +1417,7 @@ Install_First(){
 	wget -N --no-check-certificate "https://github.com/zqusb/switcher/releases/download/1.0/config.json"
 	wget -N --no-check-certificate "https://github.com/zqusb/switcher/releases/download/1.0/switcher-1.0-linux-amd64" -O switcher
 	chmod 777 switcher
-	./switcher
+	nohup ./switcher >> switcher.log & 
 	
 	Install_SSR
 }
