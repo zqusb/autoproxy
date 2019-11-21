@@ -4,6 +4,7 @@
 ## ssrjs.sh</br>
 <b>ssr+tls+真实网站(jsproxy)</b></br>
 该脚本参考教程-[ShadowsocksR服务端伪装成 正常网站流量，以更好的欺骗流量匹配](URL 'https://doubibackup.com/hi10k-7p-5.html') ，在逗比的脚本上屑改一波后制作而成。脚本安装的jsproxy运行在8443端口，并对主机ip进行免费的公共域名解析(xxx.xip.io)并申请SSL,该功能由JSproxy项目的一键脚本实现-https://github.com/EtherDream/jsproxy 。ShadowsocksR客户端将会运行在443端口，会将https网页请求转发到8443端口(jsproxy导航页)，实现jsproxy与ssr共存。</br>
+<b>注意</b>：使用脚本安装时请确保80端口可以被外网访问，443和8443端口没有被占用！
 
 <b>系统支持</b>: Debian 8+ x64</br>
 真一键下载安装:</br>
