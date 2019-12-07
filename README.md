@@ -23,6 +23,6 @@
 
 管理命令:</br>
 ```
-wget -N --no-check-certificate https://github.com/zqusb/autoproxy/releases/download/1.0/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+wget -N --no-check-certificate https://github.com/zqusb/autoproxy/releases/download/1.0/ssrjs.sh && chmod +x ssr.sh && bash ssrjs.sh
 ```
 如有需要可以更改密码，其它参数不建议修改。
