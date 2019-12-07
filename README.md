@@ -8,7 +8,7 @@
 
 <b>系统支持</b>: Debian 8+ x64</br>
 真一键下载安装:</br>
-```wget -N --no-check-certificate https://github.com/zqusb/autoproxy/releases/download/1.0/ssr.sh && chmod +x ssrjs.sh && bash ssrjs.sh auto```
+```wget -N --no-check-certificate https://github.com/zqusb/autoproxy/releases/download/1.0/ssrjs.sh && chmod +x ssrjs.sh && bash ssrjs.sh auto```
 
 真一键安装SSR默认使用该配置： </br>
 ```
@@ -23,6 +23,6 @@
 
 管理命令:</br>
 ```
-wget -N --no-check-certificate https://github.com/zqusb/autoproxy/releases/download/1.0/ssrjs.sh && chmod +x ssr.sh && bash ssrjs.sh
+wget -N --no-check-certificate https://github.com/zqusb/autoproxy/releases/download/1.0/ssrjs.sh && chmod +x ssrjs.sh && bash ssrjs.sh
 ```
 如有需要可以更改密码，其它参数不建议修改。
